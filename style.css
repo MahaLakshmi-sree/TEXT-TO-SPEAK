@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    
+}
+.container{
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 100vh; */
+    align-items: center;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M373.12334282884757 331.36220584500217L315.27674826670227 482.0577367686228 465.9722791903229 539.9043313307682 523.8188737524682 389.20880040714746z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M866.574%2c633.501C897.992%2c634.853%2c925.705%2c614.382%2c941.385%2c587.123C957.018%2c559.945%2c959.101%2c526.711%2c943.714%2c499.394C928.048%2c471.582%2c898.491%2c453.831%2c866.574%2c454.308C835.42%2c454.773%2c807.44%2c473.863%2c793.327%2c501.641C780.385%2c527.115%2c788.266%2c556.153%2c802.141%2c581.131C816.546%2c607.063%2c836.937%2c632.226%2c866.574%2c633.501' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M740.5186987026165 27.014904230085293L837.6262699228022 80.84250992202857 891.4538756147455-16.265061298157157 794.3463043945598-70.09266699010043z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1138.8196944680026 141.30732170968975L1191.5879962586084 294.5575977664473 1344.8382723153659 241.7892959758415 1292.0699705247603 88.53901991908393z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M245.0568190494159 396.0569389431899L319.12180569994644 467.5806651578429 390.6455319145994 393.5156785073124 316.58054526406886 321.99195229265933z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M311.7582167876352 242.29038049567717L259.4425296822856 424.08280346855736 420.5688710081727 386.8838565039697z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+h1{
+    font-size: 50px;
+    margin: 0;
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+textarea{
+    margin:30px 0;
+    width: 400px;
+    height: 200px;
+    box-shadow: 11px 14px 5px;
+    border:none ;
+    outline: none;
+    font-size: 20px;
+    padding: 5px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    border:none;
+    outline:none;
+    background-color: aliceblue;
+    border-radius: 4px;
+    cursor:pointer
+}
+@media only screen and (max-width:600px){
+    textarea{
+        background-color: antiquewhite;
+        outline: auto;
+    }
+    h1{
+        font-size:40px ;
+    }
+}
+@media only screen and (min-width:600px){
+    textarea{
+        background-color: rgb(156, 202, 195);
+        outline: auto;
+    }
+    h1{
+        font-size:45px ;
+    }
+}
+@media only screen and (min-width:800px){
+    textarea{
+        background-color: rgb(219, 191, 198);
+        outline: auto;
+    }
+    h1{
+        font-size:45px ;
+    }
+}
